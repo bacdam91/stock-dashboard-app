@@ -3,7 +3,8 @@
 ## IDE
 1. Microsoft Visual Code
 
-## Required technology:
+<details>
+  <summary>## Required technology:</summary>
 1. NodeJS: Development environment
 2. ReactJS: UI library
 3. Typescript: Superset of Javascript
@@ -15,6 +16,7 @@
 9. JOI: Data validation
 10. nodemon: NodeJS Monitor
 11. Express: Web application framework
+</details>
 
 ## Optional technology:
 1. MongoDB: NoSQL database
