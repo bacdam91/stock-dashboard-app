@@ -160,6 +160,10 @@ Go into the ```index.css``` file and type the following line of code:
 
 Save the file and let's check out our application now. Voila! We have styles!
 
+### 3(c). Configuring ```antd```
+#### 3(c)(1). What is ```Webpack```?
+At its core, ```webpack``` is a *static module bundler* for modern Javascript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles. [source](https://webpack.js.org/concepts/)
+
 ### 3(a). Create navbar
 ### 3(b). Create drawer
 ### 3(c). Create graph
