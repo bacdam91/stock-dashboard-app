@@ -91,6 +91,8 @@ After installations, the files with the ```.jsx``` extensions should be automati
 
 ## 3. Developing the front-End
 
+### Cleaning up ```create-react-app```
+
 When we open the project at the root directory, ```create-react-app``` would have created three directories:
 1. ```node_modules```
 2. ```public```
@@ -116,6 +118,8 @@ export default class App extends Component {
 	}
 }
 ```
+
+We can delete the ```App.css``` and the ```logo.svg``` files for now to declutter our ```src``` folder. At the same time, we can delete everything in the ```index.css``` file.
 
 ### 3(a). Installing ```antd```
 Ant design (```antd```) is a React Design Framework. It offers a set of high quality components and demos for building rich, interactive user interfaces. In order to use its API we need to install it.
@@ -148,7 +152,13 @@ render() {
 }
 ```
 
-Once we save the file, our server should auto-reload.
+Once we save the file, our server should auto-reload. If we look at our application, it should show a stock-standard HTML button. This looks boring and is rather unwhelming. The reason for this lack of styling is that we have yet to import in the ```antd``` css file. So let's do this.
+
+Go into the ```index.css``` file and type the following line of code:
+
+> ```@import "~antd/dist/antd.css;"```
+
+Save the file and let's check out our application now. Voila! We have styles!
 
 ### 3(a). Create navbar
 ### 3(b). Create drawer
