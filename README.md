@@ -36,7 +36,7 @@ To create the ```C:/node``` directory, in the CMD, type:
 
 To start a new Create React App project with Typescript, we will run the following command:
 
-> ```npx create-react-app stockie --template typescript
+> ```npx create-react-app stockie --template typescript```
 
 *__Note__: If you've previously installed ```create-react-app``` globally via ```npm install -g create-react-app```, the Create React App developers recommend that you uninstall the package using ```npm uninstall -g create-react-app``` to ensure that ```npx``` always uses the latest version because global installs of ```create-react-app``` are no longer supported.*
 
@@ -46,7 +46,7 @@ As we will be working with Typescript, we will also need to install it. Firstly,
 
 Let's install Typescript;
 
-> ```npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+> ```npm install --save typescript @types/node @types/react @types/react-dom @types/jest```
 
 After installations, the files with the ```.jsx``` extensions should be automatically renamed to ```.tsx```. If __not__, please renamed the file extension.
 
