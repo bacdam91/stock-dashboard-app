@@ -1,5 +1,8 @@
 # Creating Stock Dashboard Web Application (Stockie)
 
+## IDE
+1. Microsoft Visual Code
+
 ## Required technology:
 1. NodeJS: Development environment
 2. ReactJS: UI library
@@ -20,6 +23,19 @@
 ## 1. Setting up
 ### 1(a). Downloading NodeJS
 ### 1(b). Create a react app with create-react-app
+
+To ensure maximum compatibility between the tutorial and the project on your computer, I recommend that you create the directories according to how it is in the tutorial. I have put the entire project in the following directory ```C:/node```. If you have __not__ got the same directory structure, please make one via Window Explorer or Command Prompt (CMD). Throughout this tutorial series, a lot of the navigation will be done through CMD and VS Code built-in command line tool.
+
+1. Open CMD
+2. To create the ```C:/node``` directory, in the CMD, type: 
+> ```mkdir node && cd node```
+3. To start a new Create React App project with Typescript, we will run the following command:
+> ```npx create-react-app stockie --template typescript
+
+*__Note__: If you've previously installed ```create-react-app``` globally via ```npm install -g create-react-app```, the Create React App developers recommend that you uninstall the package using ```npm uninstall -g create-react-app``` to ensure that ```npx``` always uses the latest version because global installs of ```create-react-app``` are no longer supported.*
+
+As we will be working with Typescript, we will also need to install it. Firstly, we will navigate into our newly created app directory. On 
+
 ### 1(c). Installing Ant Design
 ### 1(d). Installing Axios
 ### 1(e). Installing Config
