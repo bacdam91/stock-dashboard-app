@@ -83,11 +83,6 @@ Let's open VS Code from Stockie's directory with the following command
 
 After installations, the files with the ```.jsx``` extensions should be automatically renamed to ```.tsx```. If __not__, please renamed the file extension.
 
-### 1(c). Installing Ant Design
-### 1(d). Installing Axios
-### 1(e). Installing Config
-### 1(f). Setting up account with Alpha Vantage
-
 ## 2. Developing the back-End
 ### 2(a). Server setup with NodeJS
 ### 2(b). Setting up endpoints
@@ -96,26 +91,64 @@ After installations, the files with the ```.jsx``` extensions should be automati
 
 ## 3. Developing the front-End
 
-When we open the project at the root directory (```C:/node/stockie```), ```create-react-app``` would have created three directories:
+When we open the project at the root directory, ```create-react-app``` would have created three directories:
 1. ```node_modules```
 2. ```public```
 3. ```src```
+
+Let's start our React app with the following CMD command:
+
+> ```npm start```
+
+This should automatically create a server on a free port, usually port 3000 unless it's being used.
 
 The ```create-react-app``` library helps us to bootstrap our React app. It is very convenient but there are a few things we do __not__ need for this project. So let's get rid of them.
 
 The ```src``` folder is where we have all our React components. Let's open the ```App.tsx``` file in the ```src``` folder and get rid of a few lines of codes. We should have the following lines of codes in our ```App.tsx``` file.
 
 ```
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
 
-const App: React.FC = () => {
-	return <div className="App"></div>;
-};
+export default class App extends Component {
+	render() {
+		return <div></div>;
+	}
+}
+```
 
-export default App;
+### 3(a). Installing ```antd```
+Ant design (```antd```) is a React Design Framework. It offers a set of high quality components and demos for building rich, interactive user interfaces. In order to use its API we need to install it.
+
+In our project root directory, run the following CMD command:
+> ```npm install antd```
+
+### 3(b). Testing ```antd```
+Let's do a quick test to see if ```antd``` was correctly installed.
+
+In our ```App.tsx```, let's create an ```antd``` Button component. We can name import it with the following line of code:
+
+> ``` import {Button} from "antd"```
+
+Then we will create the Button component in our ```div``` element and give it the type of ```primary```. Our ```App.tsx``` should look like this:
 
 ```
+import React, { Component } from "react";
+import { Button } from "antd";
+import "./App.css";
+
+export default class App extends Component {
+render() {
+	return (
+		<div>
+			<Button type="primary">Primary Button</Button>
+		</div>
+		);
+	}
+}
+```
+
+Once we save the file, our server should auto-reload.
 
 ### 3(a). Create navbar
 ### 3(b). Create drawer
@@ -131,3 +164,7 @@ export default App;
 ### 5(c). Setting up endpoints
 ### 5(d). Data validation
 ### 5(e). Connecting front-end to back-end
+
+## 6. Glossary
+* CMD: Command Prompt
+* (project) root directory: ```C:/node/stockie```
