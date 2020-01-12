@@ -4,19 +4,44 @@
 1. Microsoft Visual Code
 
 <details>
-  <summary>__Required technology:__</summary>
+  <summary>**Required technology:**</summary>
   <p>
-    1. NodeJS: Development environment
-2. ReactJS: UI library
-3. Typescript: Superset of Javascript
-4. Ant Design: UI framework
-5. Axios: Making API calls
-6. Config: Handling environment configuration
-7. Alpha Vantage: Stock data API provider
-8. create-react-app: ReactJS bundler
-9. JOI: Data validation
-10. nodemon: NodeJS Monitor
-11. Express: Web application framework
+    <ul>
+      <li>
+        NodeJS: Development environment
+      </li>
+      <li>
+        ReactJS: UI library
+      </li>
+      <li>
+        Typescript: Superset of Javascript
+      </li>
+      <li>
+        Ant Design: UI framework
+      </li>
+      <li>
+        Axios: Making API calls
+      </li>
+      <li>
+        Config: Handling environment configuration
+      </li>
+      <li>
+        Alpha Vantage: Stock data API provider
+      </li>
+      <li>
+        create-react-app: ReactJS bundler
+      </li>
+      <li>
+        JOI: Data validation
+      </li>
+      <li>
+        nodemon: NodeJS Monitor
+      </li>
+      <li>
+        Express: Web application framework
+      </li>
+      </li>
+    </ul>
   </p>
 </details>
 
