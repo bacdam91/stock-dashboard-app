@@ -11,6 +11,7 @@
 8. create-react-app: ReactJS bundler
 9. JOI: Data validation
 10. nodemon: NodeJS Monitor
+11. Express: Web application framework
 
 ## Optional technology:
 1. MongoDB: NoSQL database
