@@ -77,8 +77,11 @@ Let's install Typescript;
 
 > ```npm install --save typescript @types/node @types/react @types/react-dom @types/jest```
 
-After installations, the files with the ```.jsx``` extensions should be automatically renamed to ```.tsx```. If __not__, please renamed the file extension.
+Let's open VS Code from Stockie's directory with the following command
 
+> ```code .```
+
+After installations, the files with the ```.jsx``` extensions should be automatically renamed to ```.tsx```. If __not__, please renamed the file extension.
 
 ### 1(c). Installing Ant Design
 ### 1(d). Installing Axios
@@ -92,6 +95,28 @@ After installations, the files with the ```.jsx``` extensions should be automati
 ### 2(d). Sending requests to Alpha Vantage
 
 ## 3. Developing the front-End
+
+When we open the project at the root directory (```C:/node/stockie```), ```create-react-app``` would have created three directories:
+1. ```node_modules```
+2. ```public```
+3. ```src```
+
+The ```create-react-app``` library helps us to bootstrap our React app. It is very convenient but there are a few things we do __not__ need for this project. So let's get rid of them.
+
+The ```src``` folder is where we have all our React components. Let's open the ```App.tsx``` file in the ```src``` folder and get rid of a few lines of codes. We should have the following lines of codes in our ```App.tsx``` file.
+
+```
+import React from "react";
+import "./App.css";
+
+const App: React.FC = () => {
+	return <div className="App"></div>;
+};
+
+export default App;
+
+```
+
 ### 3(a). Create navbar
 ### 3(b). Create drawer
 ### 3(c). Create graph
