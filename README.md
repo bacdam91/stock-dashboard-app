@@ -4,7 +4,7 @@
 1. Microsoft Visual Code
 
 <details>
-  <summary>**Required technology:**</summary>
+  <summary>Required technology:</summary>
   <p>
     <ul>
       <li>
