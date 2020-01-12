@@ -4,8 +4,9 @@
 1. Microsoft Visual Code
 
 <details>
-  <summary>## Required technology:</summary>
-1. NodeJS: Development environment
+  <summary>__Required technology:__</summary>
+  <p>
+    1. NodeJS: Development environment
 2. ReactJS: UI library
 3. Typescript: Superset of Javascript
 4. Ant Design: UI framework
@@ -16,6 +17,7 @@
 9. JOI: Data validation
 10. nodemon: NodeJS Monitor
 11. Express: Web application framework
+  </p>
 </details>
 
 ## Optional technology:
